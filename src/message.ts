@@ -1,5 +1,5 @@
 "use strict";
-import { ColorsType, ColorType, Integer } from "./types.ts";
+import { ColorsType, ColorType, Integer } from "./types";
 const author: string = "Velislav S. Karastoychev";
 const version: string = "1.0.0";
 const regexTest: RegExp =

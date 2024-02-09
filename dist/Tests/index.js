@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = require("../index");
-new index_1.default()
+const index_js_1 = require("../index.js");
+new index_js_1.default()
     // .setColor("rgb(0, 255, 0)")
     .setColorGreen
     .appendCheckMark
@@ -9,7 +9,7 @@ new index_1.default()
     .setColorCyan
     .append("Successfully executed message library!!!")
     .reset.log();
-new index_1.default()
+new index_js_1.default()
     .setColor("rgb(200, 50, 30)")
     .setBgColor("rgb(90, 250, 250)")
     .underline
@@ -20,14 +20,14 @@ new index_1.default()
     .appendWhiteSpace()
     .appendFaceWithTearsOfJoy
     .reset.log();
-new index_1.default()
+new index_js_1.default()
     .underline
     .setColorCyan
     .append("Hello")
     .appendWhiteSpace()
     .appendAmbulanceSymbol
     .reset.log();
-new index_1.default()
+new index_js_1.default()
     .bold.setColorYellow.setBgColor("rgb(45, 140, 200)")
     .appendLogicalForAllSymbol
     .append(" a, b : ")
@@ -61,14 +61,14 @@ new index_1.default()
     .appendLogicalIdentical
     .appendWhiteSpace()
     .append("a + b ").reset.log();
-new index_1.default()
+new index_js_1.default()
     .append("\n")
     .bold.setColor("rgb(20, 130, 180)")
     .appendMathCubeRootSymbol
     .append("x + ").appendMathPartialDifferential
     .append("y / ").appendMathPartialDifferential
     .append("x + ").append("w * y = 0").reset.log();
-new index_1.default()
+new index_js_1.default()
     .append("This is the ambulance symbol:")
     .appendAmbulanceSymbol
     .append("\n")
@@ -113,13 +113,13 @@ new index_1.default()
     .append("\n")
     .reset.log();
 const error = new Error();
-error.name = new index_1.default()
+error.name = new index_js_1.default()
     .bold
     .italic
     .underline
     .setColorYellow
     .append("Internal error message:\n").reset.text;
-error.message = new index_1.default().setColorRed
+error.message = new index_js_1.default().setColorRed
     .appendWarningSign
     .appendWhiteSpace()
     .setColorCyan
@@ -128,7 +128,7 @@ error.message = new index_1.default().setColorRed
     .reset.text;
 console.log(error.name);
 console.log(error.message);
-new index_1.default()
+new index_js_1.default()
     .bold
     .italic
     .underline
@@ -142,7 +142,7 @@ new index_1.default()
     .append('The message library of the euriklis package was successfully installed.')
     .reset.log();
 // print an error message:
-new index_1.default().bold.italic.underline
+new index_js_1.default().bold.italic.underline
     .setBgColorYellow
     .setColorCyan
     .blink
