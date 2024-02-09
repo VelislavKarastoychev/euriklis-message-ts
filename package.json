@@ -1,0 +1,27 @@
+{
+  "name": "@euriklis/message-ts",
+  "version": "1.0.0",
+  "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "build": "tsc",
+    "test": "nodemon ./Tests/index.ts"
+  },
+  "keywords": [
+    "colors in the terminal",
+    "bold italic and underline text in the terminal",
+    "styling of the console output for nodejs",
+    "mathematical symbols and expressions in the console"
+  ],
+  "author": "Euriklis <euriklis@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext", // set to the *lowest* target you support
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "allowImportingTsExtensions": true,
+    "customConditions": ["module"],
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "outDir": "./dist"
+  }
+}
