@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
   "main": "./index.ts",
+  "type": "module",
   "module": "./index.ts",
   "files": [
     "dist",
@@ -11,9 +12,9 @@
   ],
   "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "ts-node ./Tests/index.ts",
+    "start": "ts-node ./index.ts",
     "build": "tsc",
-    "test": "rm -rdf ./dist && npm run build && nodemon ./dist/Tests/index.js"
+    "test": "nodemon ./Tests/index.ts"
   },
   "keywords": [
     "colors in the terminal",
