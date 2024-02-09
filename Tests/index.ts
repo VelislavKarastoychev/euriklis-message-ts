@@ -1,5 +1,5 @@
 "use strict";
-import message from "../index.js";
+import message from "../index.ts";
 
 new message()
   // .setColor("rgb(0, 255, 0)")
