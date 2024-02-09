@@ -908,9 +908,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * triple integral symbol (∭) prepended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the triple integral symbol prepended.
    */
   get prependMathTripleIntegralSymbol(): Message {
@@ -918,9 +918,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * proportional symbol (∝) appended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the proportional symbol appended.
    */
   get appendMathProportionalSymbol(): Message {
@@ -928,9 +928,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * proportional symbol (∝) prepended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the proportional symbol prepended.
    */
   get prependMathProportionalSymbol(): Message {
@@ -938,9 +938,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * infinity symbol (∞) appended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the infinity symbol appended.
    */
   get appendMathInfinitySymbol(): Message {
@@ -948,9 +948,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * infinity symbol (∞) prepended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the infinity symbol prepended.
    */
   get prependMathInfinitySymbol(): Message {
@@ -958,9 +958,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * contour integral symbol (∮) appended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the contour integral symbol appended.
    */
   get appendMathContourIntegral(): Message {
@@ -968,9 +968,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the 
+   * Returns a Message object with the
    * contour integral symbol (∮) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the contour integral symbol prepended.
    */
   get prependMathContourIntegral(): Message {
@@ -978,9 +978,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the volume 
+   * Returns a Message object with the volume
    * integral symbol (∰) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the volume integral symbol appended.
    */
   get appendMathVolumeIntegral(): Message {
@@ -988,9 +988,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the volume 
+   * Returns a Message object with the volume
    * integral symbol (∰) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the volume integral symbol prepended.
    */
   get prependMathVolumeIntegral(): Message {
@@ -998,9 +998,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the almost 
+   * Returns a Message object with the almost
    * equal symbol (≈) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the almost equal symbol appended.
    */
   get appendMathAlmostEqual(): Message {
@@ -1008,9 +1008,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the almost 
+   * Returns a Message object with the almost
    * equal symbol (≈) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the almost equal symbol prepended.
    */
   get prependMathAlmostEqual(): Message {
@@ -1018,9 +1018,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the almost 
+   * Returns a Message object with the almost
    * equal or equal symbol (≊) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the almost equal or equal symbol appended.
    */
   get appendMathAlmostEqualOrEqual(): Message {
@@ -1028,9 +1028,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the almost 
+   * Returns a Message object with the almost
    * equal or equal symbol (≊) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the almost equal or equal symbol prepended.
    */
   get prependMathAlmostEqualOrEqual(): Message {
@@ -1038,9 +1038,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the estimates 
+   * Returns a Message object with the estimates
    * symbol (≙) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the estimates symbol appended.
    */
   get appendMathEstimates(): Message {
@@ -1048,9 +1048,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the estimates 
+   * Returns a Message object with the estimates
    * symbol (≙) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the estimates symbol prepended.
    */
   get prependMathEstimates(): Message {
@@ -1058,9 +1058,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the equal 
+   * Returns a Message object with the equal
    * by definition symbol (≝) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the equal by definition symbol appended.
    */
   get appendMathEqualByDefinition(): Message {
@@ -1068,9 +1068,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the equal by 
+   * Returns a Message object with the equal by
    * definition symbol (≝) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the equal by definition symbol prepended.
    */
   get prependMathEqualByDefinition(): Message {
@@ -1078,9 +1078,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the square 
+   * Returns a Message object with the square
    * root symbol (√) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the square root symbol appended.
    */
   get appendMathSqrtSymbol(): Message {
@@ -1088,9 +1088,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the square 
+   * Returns a Message object with the square
    * root symbol (√) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the square root symbol prepended.
    */
   get prependMathSqrtSymbol(): Message {
@@ -1098,9 +1098,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the cube 
+   * Returns a Message object with the cube
    * root symbol (∛) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the cube root symbol appended.
    */
   get appendMathCubeRootSymbol(): Message {
@@ -1108,9 +1108,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the cube 
+   * Returns a Message object with the cube
    * root symbol (∛) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the cube root symbol prepended.
    */
   get prependMathCubeRootSymbol(): Message {
@@ -1118,9 +1118,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the forth 
+   * Returns a Message object with the forth
    * root symbol (∜) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the forth root symbol appended.
    */
   get appendMathForthRootSymbol(): Message {
@@ -1128,9 +1128,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the forth 
+   * Returns a Message object with the forth
    * root symbol (∜) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the forth root symbol prepended.
    */
   get prependMathForthRootSymbol(): Message {
@@ -1138,9 +1138,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the subset 
+   * Returns a Message object with the subset
    * of symbol (⊂) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the subset of symbol appended.
    */
   get appendMathSubsetOfSymbol(): Message {
@@ -1148,9 +1148,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the subset 
+   * Returns a Message object with the subset
    * of symbol (⊂) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the subset of symbol prepended.
    */
   get prependMathSubsetOfSymbol(): Message {
@@ -1158,9 +1158,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the superset 
+   * Returns a Message object with the superset
    * of symbol (⊃) appended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * superset of symbol appended.
    */
   get appendMathSupersetOfSymbol(): Message {
@@ -1168,9 +1168,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the superset 
+   * Returns a Message object with the superset
    * of symbol (⊃) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the superset of symbol prepended.
    */
   get prependMathSupersetOfSymbol(): Message {
@@ -1178,9 +1178,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the hourglass 
+   * Returns a Message object with the hourglass
    * symbol (⌛) appended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * hourglass symbol appended.
    */
   get appendHourglassSymbol(): Message {
@@ -1188,9 +1188,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the hourglass 
+   * Returns a Message object with the hourglass
    * symbol (⌛) prepended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * hourglass symbol prepended.
    */
   get prependHourglassSymbol(): Message {
@@ -1198,9 +1198,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the keyboard 
+   * Returns a Message object with the keyboard
    * symbol (⌨) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the keyboard symbol appended.
    */
   get appendKeyboardSymbol(): Message {
@@ -1208,9 +1208,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the keyboard 
+   * Returns a Message object with the keyboard
    * symbol (⌨) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the keyboard symbol prepended.
    */
   get prependKeyboardSymbol(): Message {
@@ -1218,9 +1218,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the question 
+   * Returns a Message object with the question
    * mark ornament symbol (❓) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the question mark ornament symbol appended.
    */
   get appendQuestionMarkOrnament(): Message {
@@ -1228,9 +1228,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the question 
+   * Returns a Message object with the question
    * mark ornament symbol (❓) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the question mark ornament symbol prepended.
    */
   get prependQuestionMarkOrnament(): Message {
@@ -1238,9 +1238,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the Bitcoin 
+   * Returns a Message object with the Bitcoin
    * symbol (₿) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the Bitcoin symbol appended.
    */
   get appendBitcoinSymbol(): Message {
@@ -1248,9 +1248,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the Bitcoin 
+   * Returns a Message object with the Bitcoin
    * symbol (₿) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the Bitcoin symbol prepended.
    */
   get prependBitcoinSymbol(): Message {
@@ -1258,9 +1258,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the Euro 
+   * Returns a Message object with the Euro
    * symbol (€) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the Euro symbol appended.
    */
   get appendEuroSymbol(): Message {
@@ -1268,9 +1268,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the Euro 
+   * Returns a Message object with the Euro
    * symbol (€) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the Euro symbol prepended.
    */
   get prependEuroSymbol(): Message {
@@ -1278,9 +1278,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the face 
+   * Returns a Message object with the face
    * with tears of joy emoji (😂) appended.
-   * @returns {Message} A Message object 
+   * @returns {Message} A Message object
    * with the face with tears of joy emoji appended.
    */
   get appendFaceWithTearsOfJoy(): Message {
@@ -1288,9 +1288,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the face 
+   * Returns a Message object with the face
    * with tears of joy emoji (😂) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the face with tears of joy emoji prepended.
    */
   get prependFaceWithTearsOfJoy(): Message {
@@ -1298,9 +1298,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the heart 
+   * Returns a Message object with the heart
    * symbol (❤) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the heart symbol appended.
    */
   get appendHeartSymbol(): Message {
@@ -1308,9 +1308,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the heart 
+   * Returns a Message object with the heart
    * symbol (❤) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the heart symbol prepended.
    */
   get prependHeartSymbol(): Message {
@@ -1318,9 +1318,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the coronavirus 
+   * Returns a Message object with the coronavirus
    * symbol (🦠) appended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * coronavirus symbol appended.
    */
   get appendCoronaVirusSymbol(): Message {
@@ -1328,9 +1328,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the coronavirus 
+   * Returns a Message object with the coronavirus
    * symbol (🦠) prepended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * coronavirus symbol prepended.
    */
   get prependCoronaVirusSymbol(): Message {
@@ -1338,9 +1338,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the ambulance 
+   * Returns a Message object with the ambulance
    * symbol (🚑) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the ambulance symbol appended.
    */
   get appendAmbulanceSymbol(): Message {
@@ -1348,9 +1348,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the ambulance 
+   * Returns a Message object with the ambulance
    * symbol (🚑) prepended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * ambulance symbol prepended.
    */
   get prependAmbulanceSymbol(): Message {
@@ -1358,9 +1358,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the potable 
+   * Returns a Message object with the potable
    * water symbol (🚰) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the potable water symbol appended.
    */
   get appendPotableWaterSymbol(): Message {
@@ -1368,9 +1368,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the potable 
+   * Returns a Message object with the potable
    * water symbol (🚰) prepended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the potable water symbol prepended.
    */
   get prependPotableWaterSymbol(): Message {
@@ -1378,9 +1378,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the face with 
+   * Returns a Message object with the face with
    * medical mask symbol (😷) appended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * face with medical mask symbol appended.
    */
   get appendFaceWithMedicalMaskSymbol(): Message {
@@ -1388,9 +1388,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the face with 
+   * Returns a Message object with the face with
    * medical mask symbol (😷) prepended.
-   * @returns {Message} A Message object with the 
+   * @returns {Message} A Message object with the
    * face with medical mask symbol prepended.
    */
   get prependFaceWithMedicalMaskSymbol(): Message {
@@ -1398,9 +1398,9 @@ class Message {
   }
 
   /**
-   * Returns a Message object with the rose 
+   * Returns a Message object with the rose
    * symbol (🌹) appended.
-   * @returns {Message} A Message object with 
+   * @returns {Message} A Message object with
    * the rose symbol appended.
    */
   get appendRoseSymbol(): Message {
