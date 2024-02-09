@@ -6,10 +6,9 @@
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "allowImportingTsExtensions": true,
+    // "allowImportingTsExtensions": true,
     "customConditions": ["module"],
     "moduleResolution": "nodenext",
-    "noEmit": true,
     "outDir": "./dist"
   }
 }
