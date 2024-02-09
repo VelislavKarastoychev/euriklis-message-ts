@@ -2,12 +2,11 @@
   "name": "@euriklis/message-ts",
   "version": "1.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
-  "type": "module",
   "main": "./index.ts",
   "scripts": {
-    "start": "node --loader=ts-node/esm ./index.ts",
+    "start": "ts-node ./index.ts",
     "build": "tsc",
-    "test": "node --loader=ts-node/esm ./Tests/index.ts"
+    "test": "nodemon ./Tests/index.ts"
   },
   "keywords": [
     "colors in the terminal",
