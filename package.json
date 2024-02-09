@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
   "main": "./index.ts",
+  "module": "./index.ts",
   "scripts": {
     "start": "ts-node ./index.ts",
     "build": "tsc",
