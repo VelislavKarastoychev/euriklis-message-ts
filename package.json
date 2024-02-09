@@ -4,6 +4,7 @@
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
+  "type": "module",
   "files": [
     "dist",
     "src",
