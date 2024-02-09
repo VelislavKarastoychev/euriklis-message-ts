@@ -1,3 +1,4 @@
-import message from './src/message.js';
-export default message;
-//# sourceMappingURL=index.js.map
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const message_js_1 = require("./src/message.js");
+exports.default = message_js_1.default;

@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const author = "Velislav S. Karastoychev";
 const version = "1.0.0";
 const regexTest = /^rgb\((25[0-5]|2[0-4]\d|1\d{2}|\d{1,2}),\s*(25[0-5]|2[0-4]\d|1\d{2}|\d{1,2}),\s*(25[0-5]|2[0-4]\d|1\d{2}|\d{1,2})\)$/;
@@ -26,8 +27,6 @@ const colors = [
  * property - i.e. the text property.
  */
 class Message {
-    text;
-    styles;
     /**
      * The constructor of the
      * Message class creates the text property
@@ -1480,8 +1479,7 @@ class Message {
         console.error(this.text);
         return this;
     }
-    static author = author;
-    static version = version;
 }
-export default Message;
-//# sourceMappingURL=message.js.map
+Message.author = author;
+Message.version = version;
+exports.default = Message;

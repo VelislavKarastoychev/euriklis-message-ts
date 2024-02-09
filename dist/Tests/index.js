@@ -1,6 +1,7 @@
 "use strict";
-import message from "../index.js";
-new message()
+Object.defineProperty(exports, "__esModule", { value: true });
+const index_js_1 = require("../index.js");
+new index_js_1.default()
     // .setColor("rgb(0, 255, 0)")
     .setColorGreen
     .appendCheckMark
@@ -8,7 +9,7 @@ new message()
     .setColorCyan
     .append("Successfully executed message library!!!")
     .reset.log();
-new message()
+new index_js_1.default()
     .setColor("rgb(200, 50, 30)")
     .setBgColor("rgb(90, 250, 250)")
     .underline
@@ -19,14 +20,14 @@ new message()
     .appendWhiteSpace()
     .appendFaceWithTearsOfJoy
     .reset.log();
-new message()
+new index_js_1.default()
     .underline
     .setColorCyan
     .append("Hello")
     .appendWhiteSpace()
     .appendAmbulanceSymbol
     .reset.log();
-new message()
+new index_js_1.default()
     .bold.setColorYellow.setBgColor("rgb(45, 140, 200)")
     .appendLogicalForAllSymbol
     .append(" a, b : ")
@@ -60,14 +61,14 @@ new message()
     .appendLogicalIdentical
     .appendWhiteSpace()
     .append("a + b ").reset.log();
-new message()
+new index_js_1.default()
     .append("\n")
     .bold.setColor("rgb(20, 130, 180)")
     .appendMathCubeRootSymbol
     .append("x + ").appendMathPartialDifferential
     .append("y / ").appendMathPartialDifferential
     .append("x + ").append("w * y = 0").reset.log();
-new message()
+new index_js_1.default()
     .append("This is the ambulance symbol:")
     .appendAmbulanceSymbol
     .append("\n")
@@ -112,13 +113,13 @@ new message()
     .append("\n")
     .reset.log();
 const error = new Error();
-error.name = new message()
+error.name = new index_js_1.default()
     .bold
     .italic
     .underline
     .setColorYellow
     .append("Internal error message:\n").reset.text;
-error.message = new message().setColorRed
+error.message = new index_js_1.default().setColorRed
     .appendWarningSign
     .appendWhiteSpace()
     .setColorCyan
@@ -127,7 +128,7 @@ error.message = new message().setColorRed
     .reset.text;
 console.log(error.name);
 console.log(error.message);
-new message()
+new index_js_1.default()
     .bold
     .italic
     .underline
@@ -141,7 +142,7 @@ new message()
     .append('The message library of the euriklis package was successfully installed.')
     .reset.log();
 // print an error message:
-new message().bold.italic.underline
+new index_js_1.default().bold.italic.underline
     .setBgColorYellow
     .setColorCyan
     .blink
@@ -154,4 +155,3 @@ new message().bold.italic.underline
     .setColorYellow
     .append('The message library of the euriklis package prints error message for you.')
     .reset.log();
-//# sourceMappingURL=index.js.map
