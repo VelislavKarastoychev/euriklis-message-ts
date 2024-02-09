@@ -27,8 +27,6 @@ const colors = [
  * property - i.e. the text property.
  */
 class Message {
-    text;
-    styles;
     /**
      * The constructor of the
      * Message class creates the text property
@@ -1481,8 +1479,7 @@ class Message {
         console.error(this.text);
         return this;
     }
-    static author = author;
-    static version = version;
 }
+Message.author = author;
+Message.version = version;
 exports.default = Message;
-//# sourceMappingURL=message.js.map

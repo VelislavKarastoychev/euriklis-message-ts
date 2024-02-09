@@ -1,9 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = __importDefault(require("../index"));
+const index_1 = require("../index");
 new index_1.default()
     // .setColor("rgb(0, 255, 0)")
     .setColorGreen
@@ -158,4 +155,3 @@ new index_1.default().bold.italic.underline
     .setColorYellow
     .append('The message library of the euriklis package prints error message for you.')
     .reset.log();
-//# sourceMappingURL=index.js.map

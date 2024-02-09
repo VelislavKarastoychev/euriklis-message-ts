@@ -2,8 +2,8 @@
   "name": "@euriklis/message-ts",
   "version": "1.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
-  "main": "./dist/index.js",
-  "module": "./dist/index.s",
+  "main": "./index.ts",
+  "module": "./index.ts",
   "files": [
     "dist"
   ],
@@ -11,7 +11,7 @@
   "scripts": {
     "start": "ts-node ./index.ts",
     "build": "tsc",
-    "test": "nodemon ./dist/Tests/index.js"
+    "test": "rm -rdf ./dist && npm run build && nodemon ./dist/Tests/index.js"
   },
   "keywords": [
     "colors in the terminal",
