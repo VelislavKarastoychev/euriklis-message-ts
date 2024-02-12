@@ -1,6 +1,6 @@
 {
   "name": "@euriklis/message-ts",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
   "main": "./dist/src/message.js",
   "type": "module",
