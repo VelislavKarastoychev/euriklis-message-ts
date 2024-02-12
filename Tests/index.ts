@@ -1,5 +1,5 @@
 "use strict";
-import message from "../index";
+import message from "../src/message";
 
 new message()
   // .setColor("rgb(0, 255, 0)")

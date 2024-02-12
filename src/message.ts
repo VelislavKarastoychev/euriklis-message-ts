@@ -29,7 +29,7 @@ const colors: ColorsType = [
  * property - i.e. the text property.
  */
 
-class Message {
+export default class Message {
   text: string;
   styles: string;
 
@@ -1623,5 +1623,3 @@ class Message {
   public static author = author;
   public static version = version;
 }
-
-export default Message;

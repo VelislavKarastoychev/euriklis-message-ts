@@ -1,4 +1,4 @@
-import { ColorType, Integer } from "./types";
+import { ColorType, Integer } from "./types.js";
 /**
  * @class Message
  * @description this class is a tool for
@@ -11,7 +11,7 @@ import { ColorType, Integer } from "./types";
  * Every instance of this class has only one
  * property - i.e. the text property.
  */
-declare class Message {
+export default class Message {
     text: string;
     styles: string;
     /**
@@ -1088,4 +1088,3 @@ declare class Message {
     static author: string;
     static version: string;
 }
-export default Message;
