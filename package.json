@@ -10,6 +10,10 @@
     "build": "rm -rdf ./dist && tsc",
     "test": "nodemon ./dist/Tests/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VelislavKarastoychev/euriklis-message-ts.git"
+  }
   "keywords": [
     "colors in the terminal",
     "bold italic and underline text in the terminal",
