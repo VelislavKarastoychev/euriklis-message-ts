@@ -1,14 +1,12 @@
 {
   "name": "@euriklis/message-ts",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A typescript library which allows you to write style-designed messages, mathematical/logical expressions and special symbols in the terminal.",
   "main": "./dist/src/message.js",
-  "type": "module",
-  "module": "./dist/index.ts",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/message.d.ts",
   "scripts": {
     "start": "ts-node ./src/message.ts",
-    "build": "rm -rdf ./dist && tsc && tsc-alias",
+    "compile": "rm -rdf ./dist && tsc && tsc-alias",
     "test": "nodemon ./dist/Tests/index.js"
   },
   "repository": {
